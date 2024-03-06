@@ -99,7 +99,7 @@
                 "is_admin": false,
                 "name": "PixiUser",
                 "pass": "mygood2!pass",
-                "user": "foo@test.com"
+                "user": "foo2@test.com"
               }
             }
           }
