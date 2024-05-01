@@ -360,10 +360,14 @@
         "additionalProperties": false,
         "properties": {
           "email": {
-            "type": "string"
+            "type": "string",
+            "maxLength": 68,
+            "minLength": 5,
+            "pattern": "^[\\w\\-+.]+@((\\w\\-?)+\\.){1,4}[a-zA-Z0-9]{2,63}$"
           },
           "name": {
-            "type": "string"
+            "type": "string",
+            "pattern": "^[\\w\\s\\.\\-@:,;]{1,255}$"
           },
           "account_balance": {
             "type": "number",
